@@ -2,3 +2,31 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task: Write pseudocode for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
+
+# The computer chooses a random number between 1 and 10
+computer=getRandomNumber number between 1 and 10
+
+# Player has three chances to guess
+playersGuess=input "Guess a number between 1 and 10" 
+if playersGuess=answer
+    print "Yay, wow you have guess correct" 
+    endGame print "Game Over"
+else 
+    print "You have guessed incorrectly, lucky for you that you have two more chances to guess"
+
+playersGuess=input "Guess a number between 1 and 10"
+if playersGuess=answer
+    print "Yay, wow you have guess correct" 
+    endGame print "Game Over"
+else 
+    print "You have guessed incorrectly, lucky for you that you have one more chance to guess"
+
+playersGuess=input "Guess a number between 1 and 10"
+if playersGuess=answer
+    print "Yay, wow you have guess correct" 
+    endGame print "Game Over"
+else 
+    print "You have guessed incorrectly, lucky for you that you have no more chances to guess"
+
+endGame print "Game Over"

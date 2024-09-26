@@ -2,3 +2,39 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task B: Find the Spot
+Task: Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.Hints: Loops, Variables
+
+#Set location 20x20 Warehouse Grid
+x-location=5
+y-location=20
+spot=(x-location,y-location)
+
+#customer starting position 0,0 is top left corner
+x-position=0
+y-position=0
+pos=(x-position,y-position)
+
+Do this until spot==pos  
+
+    move=input "Move North, South, East, or West"
+
+    if move="North"
+        y-position=y-position-1
+        pos=(x-position,y-position)
+
+    if move="South"
+        y-position=y-position+1
+        pos=(x-position,y-position)
+
+    if move="East"
+        x-position=x-position+1
+        pos=(x-position,y-position)
+
+    if move="West"
+        x-position=x-position-1
+        pos=(x-position,y-position)
+
+End Of Do Loop
+
+print "customer has reached spot"
